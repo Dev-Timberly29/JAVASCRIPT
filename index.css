@@ -170,8 +170,9 @@ ol li{
 }
 
 .section-3{
-    height: 190vh;
+    height: 170vh;
     background-color: blanchedalmond;
+    padding-top: 20px;
 }
 .cont{
     align-items: center;
@@ -185,9 +186,18 @@ ol li{
 .cont div{
     width: 40%;
     height: 400px;
-    background-color: black;
-        border-top-right-radius:10% ;
+    background-color:white ;
+    border-top-right-radius:10% ;
     border-top-left-radius: 10%;
     border-bottom-right-radius:10% ;
     border-bottom-left-radius: 10%;
+}
+.cont div img{
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius:10% ;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius:0% ;
+    border-bottom-left-radius: 0%;
+    height: 70%; 
 }
