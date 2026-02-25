@@ -170,7 +170,7 @@ ol li{
 }
 
 .section-3{
-    height: 170vh;
+    height: 180vh;
     background-color: blanchedalmond;
     padding-top: 20px;
 }
@@ -200,4 +200,68 @@ ol li{
     border-bottom-right-radius:0% ;
     border-bottom-left-radius: 0%;
     height: 70%; 
+}
+
+.form {
+    background-color: aqua;
+    width: 400px;
+    height: 450px;
+    border-radius: 34px;
+    margin-left:45px;
+}
+form{
+    width: 400px ;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: green;
+    border-radius: 34px;
+}
+form button{
+    margin-top: 10px;
+    width: 300px;
+    padding: 7px;
+    border-radius: 34px;
+    background-color: orangered;
+    color: white;
+}
+form button:hover{
+    background-color: orange;
+}
+form input{
+    width: 300px;
+}
+form textarea{
+    width: 300px;
+}
+.cont-1 h3{
+    margin-left: 45px;
+    margin-top: 45px;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.cont-1{
+    width: 100%;
+    display: flex;
+}
+.cont-1 div{
+    width: 50%;
+}
+
+.cont-2 {
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+    gap: 10px;
+}
+.cont-2 div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex: 0 0  50%;
 }
